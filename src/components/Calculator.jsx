@@ -1,72 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+import keypads from './keypads.json';
+import calculate from '../logic/calculate';
 
-const Calculator = () => (
-  <>
-    <section className="calculator">
-      <div className="container">
-        <button type="button" className="levels display">
-          0
-        </button>
-        <button type="button" className="control lighter">
-          AC
-        </button>
-        <button type="button" className="control lighter">
-          +/-
-        </button>
-        <button type="button" className="control lighter">
-          %
-        </button>
-        <button type="button" className="control orange arithmetic">
-          &divide;
-        </button>
-        <button type="button" className="control lighter">
-          7
-        </button>
-        <button type="button" className="control lighter">
-          8
-        </button>
-        <button type="button" className="control lighter">
-          9
-        </button>
-        <button type="button" className="control orange arithmetic">
-          &times;
-        </button>
-        <button type="button" className="control lighter">
-          4
-        </button>
-        <button type="button" className="control lighter">
-          5
-        </button>
-        <button type="button" className="control lighter">
-          6
-        </button>
-        <button type="button" className="control orange arithmetic">
-          &minus;
-        </button>
-        <button type="button" className="control lighter">
-          1
-        </button>
-        <button type="button" className="control lighter">
-          2
-        </button>
-        <button type="button" className="control lighter">
-          3
-        </button>
-        <button type="button" className="control orange arithmetic">
-          +
-        </button>
-        <button type="button" className="zero-btn lighter">
-          0
-        </button>
-        <button type="button" className="control lighter arithmetic">
-          .
-        </button>
-        <button type="button" className="control orange arithmetic">
-          =
-        </button>
-      </div>
-    </section>
-  </>
-);
+const Calculator = () => {
+  const [values, setValue] = useState({
+    total: '0',
+    next: null,
+  });
+
+  const onChange = (e) => {
+    const calculated = calculate(values, e.target.innerText);
+    setValue(calculated);
+  };
+
+  const { total, next } = values;
+  const answer = next || total || '0';
+
+  return (
+    <>
+      <section className="calculator">
+        <div className="container">
+          <div className="display">{answer}</div>
+          {keypads.map((item) => (
+            <button
+              key={item.id}
+              name={item.name}
+              type="button"
+              className={item.className}
+              onClick={onChange}
+              value={item.text}
+            >
+              {item.text}
+            </button>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Calculator;

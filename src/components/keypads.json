@@ -1,0 +1,21 @@
+[
+  { "id": 0, "text": "AC", "className": "lighter" },
+  { "id": 1, "text": "+/-", "className": "lighter" },
+  { "id": 2, "text": "%", "className": "lighter" },
+  { "id": 3, "text": "÷", "className": "orange" },
+  { "id": 4, "text": "7", "className": "lighter" },
+  { "id": 5, "text": "8", "className": "lighter" },
+  { "id": 6, "text": "9", "className": "lighter" },
+  { "id": 7, "text": "x", "className": "orange" },
+  { "id": 8, "text": "4", "className": "lighter" },
+  { "id": 9, "text": "5", "className": "lighter" },
+  { "id": 10, "text": "6", "type": "button", "className": "lighter" },
+  { "id": 11, "text": "-", "className": "orange" },
+  { "id": 12, "text": "1", "className": "lighter" },
+  { "id": 13, "text": "2", "className": "lighter" },
+  { "id": 14, "text": "3", "className": "lighter" },
+  { "id": 15, "text": "+", "className": "orange" },
+  { "id": 16, "text": "0", "className": "lighter zero-btn" },
+  { "id": 17, "text": ".", "className": "lighter" },
+  { "id": 18, "text": "=", "className": "orange" }
+]
