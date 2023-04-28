@@ -49,7 +49,7 @@ const Quotes = () => {
                 </div>
               </>
             ) : (
-              error
+              <>Sorry! there was an error loading the quotes</>
             )))}
           </>
         )}
