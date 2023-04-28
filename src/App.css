@@ -49,3 +49,22 @@ button {
   font-weight: 400;
   font-size: 20px;
 }
+
+.flex-spaced {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+  width: 50%;
+  margin-top: -6rem;
+}

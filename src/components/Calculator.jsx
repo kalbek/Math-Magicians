@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import keypads from './keypads.json';
 import calculate from '../logic/calculate';
+import Quotes from './Quotes';
 
 const Calculator = () => {
   const [values, setValue] = useState({
@@ -18,7 +19,8 @@ const Calculator = () => {
 
   return (
     <>
-      <section className="calculator">
+      <section className="calculator flex-spaced">
+        <Quotes />
         <div className="container">
           <div className="display">{answer}</div>
           {keypads.map((item) => (
