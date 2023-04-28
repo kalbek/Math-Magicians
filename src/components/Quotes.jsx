@@ -36,21 +36,21 @@ const Quotes = () => {
           <>Loading . . .</>
         ) : (
           <>
-            {data.map((item) => (!error ? (
+            {!error ? (
               <>
                 <div key={null}>
-                  <li>{item.quote}</li>
+                  <li>{data[0].quote}</li>
                   <br />
                   <li>
                     ~
-                    {item.author}
+                    {data[0].author}
                   </li>
                   {error}
                 </div>
               </>
             ) : (
               <>Sorry! there was an error loading the quotes</>
-            )))}
+            )}
           </>
         )}
       </ul>
