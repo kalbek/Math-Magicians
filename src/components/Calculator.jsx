@@ -18,7 +18,7 @@ const Calculator = () => {
 
   return (
     <>
-      <section className="calculator">
+      <section className="calculator flex-spaced">
         <div className="container">
           <div className="display">{answer}</div>
           {keypads.map((item) => (
