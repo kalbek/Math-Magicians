@@ -31,27 +31,29 @@ const Quotes = () => {
 
   return (
     <>
-      <ul>
-        {loading ? (
-          <>Loading . . .</>
-        ) : (
-          <>
-            {!error ? (
-              <>
-                <li>{data[0].quote}</li>
-                <br />
-                <li>
-                  ~
-                  {data[0].author}
-                </li>
-                {error}
-              </>
-            ) : (
-              <>Sorry! there was an error loading the quotes</>
-            )}
-          </>
-        )}
-      </ul>
+      <div className="centered">
+        <ul>
+          {loading ? (
+            <>Loading . . .</>
+          ) : (
+            <>
+              {!error ? (
+                <>
+                  <li>{data[0].quote}</li>
+                  <br />
+                  <li>
+                    ~
+                    {data[0].author}
+                  </li>
+                  {error}
+                </>
+              ) : (
+                <>Sorry! there was an error loading the quotes</>
+              )}
+            </>
+          )}
+        </ul>
+      </div>
     </>
   );
 };
