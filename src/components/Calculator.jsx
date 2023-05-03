@@ -9,7 +9,9 @@ const Calculator = () => {
   });
 
   const onChange = (e) => {
-    const calculated = calculate(values, e.target.innerText);
+    console.log('event: ', e.target.value);
+    const calculated = calculate(values, e.target.value);
+    console.log('returned: ', calculated);
     setValue(calculated);
   };
 
