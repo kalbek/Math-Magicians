@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/home" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/quotes" element={<Quotes />} />
             <Route path="*" element={<PageNotFound />} />

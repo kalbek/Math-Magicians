@@ -108,7 +108,7 @@ nav {
   margin-top: -1rem;
 }
 
-.ptr:hover {
+.ptr {
   cursor: pointer;
 }
 
