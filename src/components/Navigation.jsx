@@ -7,15 +7,15 @@ const Navigation = () => (
         <h1>Math Magicians</h1>
       </div>
       <div className="menu flex gap-1">
-        <Link to="./Home">
+        <Link className="link" to="./Home">
           <div className="Home ptr">Home</div>
         </Link>
         |
-        <Link to="./Calculator">
+        <Link className="link" to="./Calculator">
           <div className="calc ptr">Calculator</div>
         </Link>
         |
-        <Link to="./Quotes">
+        <Link className="link" to="./Quotes">
           <div className="Quote ptr">Quote</div>
         </Link>
       </div>
