@@ -4,7 +4,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Video Walkthrough](#video-walkthrough)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
@@ -22,8 +21,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 Math Magicians <a name="about-project"></a>
 
 **Math Magicians** is a React project at microverse
@@ -32,7 +29,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> ReactJS, JSX
+> ReactJS, JSX, ReactRouter, ReactTestingLibrary
 
 <details>
   <summary>Client</summary>
@@ -98,6 +95,15 @@ You can deploy this project through Github Pages
 - Twitter: [@twitterhandle](https://twitter.com/KNuramo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaleb-nuramo/)
 - Website: https://kalbek.github.io/Portfolio/
+
+👤 **Fickry Bil Iman**
+
+- GitHub: [@githubhandle](https://github.com/fikryiman)
+- Mail: [@gmail](fickry.iman@gmail.com)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fickry-bil-iman/)
+- Website: https://fickrybiliman.com/
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
