@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [values, setValue] = useState({
-    total: '0',
+    total: null,
     next: null,
   });
 
