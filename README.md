@@ -4,6 +4,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Live Linl](#live-link)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
@@ -26,6 +27,8 @@
 **Math Magicians** is a React project at microverse
 
 ## 🛠 Built With <a name="built-with">ReactJs, JSX</a>
+
+### Live Link <a name="Live-Link">[Chckout-link](https://math-magicians-cnxf.onrender.com/)</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -69,7 +72,7 @@ Install this project using the cloned repo or download and use the files to your
 
 ### Usage
 
-- Clone the repository first
+- Clone the repository first.
 - Commnads to Run: 
     - npm install
     - npm start
