@@ -4,7 +4,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Live Linl](#live-link)
+    - [Live Link](#live-link)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
@@ -28,7 +28,7 @@
 
 ## 🛠 Built With <a name="built-with">ReactJs, JSX</a>
 
-### Live Link <a name="Live-Link">[Chckout-link](https://math-magicians-cnxf.onrender.com/)</a>
+### <a name="live-link">[Checkout Live link to Math Magician.](https://math-magicians-cnxf.onrender.com/)</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
