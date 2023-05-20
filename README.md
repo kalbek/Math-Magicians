@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+![Math-Magicians](https://github.com/kalbek/Math-Magicians/assets/44664009/4db18596-9e90-46bc-a7ae-5a83cd29de18)
 
 # 📗 Table of Contents
 
